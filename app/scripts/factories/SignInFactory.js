@@ -6,7 +6,7 @@ angular.module('smartAdminApp').factory('SignInFactory', function($q, $http) {
         isAuthenticated: false
     };
 
-    var website = 'https://aspirare-api.herokuapp.com';
+    var website = 'https://aspirare-smart-api.herokuapp.com';
     var URL = website;
 
     factory.login = function(obj) {
