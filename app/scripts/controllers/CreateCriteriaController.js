@@ -359,8 +359,8 @@ angular.module('smartAdminApp')
 
         $scope.openQuestionUploader = function() {
             cloudinary.openUploadWidget({
-                cloud_name: 'dzerq05zm',
-                upload_preset: 'findinbox'
+                cloud_name: 'diyrbgmir',
+                upload_preset: 'aspirare'
             }, function(error, result) {
                 $scope.newCriteria.ImageURL = 'http://res.cloudinary.com/demo/image/fetch/f_auto,q_auto/' + result[0].secure_url;
                 $scope.newCriteria.ImagePublicId = result[0].public_id;
